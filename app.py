@@ -24,7 +24,7 @@ def calcular_riscos_e_custos(N, custo_unitario_inspecao, despesa_lote_reprovado,
 
     # Determinação de aceitação ou rejeição do lote
     lote_aceito = Pa > (1 - PTDL / 100)
-
+ 
     # Resultados
     return risco_fornecedor, risco_consumidor, custo_inspecao, custo_total, ITM, custo_lotes_rejeitados, lote_aceito
 
