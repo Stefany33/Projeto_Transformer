@@ -37,11 +37,11 @@ def main():
     dias_uteis_mes = st.number_input('Número de dias úteis no mês:', min_value=1, value=20, step=1)
     custo_unitario_inspecao = st.number_input('Custo unitário de inspeção: R$', min_value=0.0, value=1.0, step=0.01, format="%.2f")
     despesa_lote_reprovado = st.number_input('Despesa por lote reprovado: R$', min_value=0.0, value=500.0, step=1.0, format="%.2f")
-    NQA = st.number_input('Nível de Qualidade Aceitável (NQA) em %:', min_value=0.0, value=0.02, step=0.01, format="%.3f")
+    NQA = st.number_input('Nível de Qualidade Aceitável (NQA) em %:', min_value=0.0, value=0.02, step=0.01, format="%.2f")
     n = st.number_input('Tamanho da amostra (n):', min_value=1, value=100, step=1)
     a = st.number_input('Índice de aceitação máxima (a):', min_value=0, value=5, step=1)
-    taxa_defeituosos = st.number_input('Histórico da taxa de defeituosos do fornecedor em %:', min_value=0.0, value=0.05, step=0.01, format="%.3f")
-    PTDL = st.number_input('Percentual Tolerável de Defeitos no Lote (PTDL) em %:', min_value=0.0, value=0.04, step=0.01, format="%.3f")
+    taxa_defeituosos = st.number_input('Histórico da taxa de defeituosos do fornecedor em %:', min_value=0.0, value=0.05, step=0.01, format="%.2f")
+    PTDL = st.number_input('Percentual Tolerável de Defeitos no Lote (PTDL) em %:', min_value=0.0, value=0.04, step=0.01, format="%.2f")
 
     if st.button('Calcular'):
         risco_fornecedor, risco_consumidor, custo_inspecao, custo_total, ITM, custo_lotes_rejeitados, lote_aceito = calcular_riscos_e_custos(
@@ -50,8 +50,8 @@ def main():
 
         # Exibição dos resultados
         st.write('Resultados:')
-        st.write(f'Risco do fornecedor: {risco_fornecedor:.4f}')
-        st.write(f'Risco do consumidor: {risco_consumidor:.4f}')
+        st.write(f'Risco do fornecedor: {risco_fornecedor:.2f}')
+        st.write(f'Risco do consumidor: {risco_consumidor:.2f}')
         st.write(f'Custo de inspeção: R$ {custo_inspecao:.2f}')
         st.write(f'Custo de despesas: R$ {custo_lotes_rejeitados:.2f}')
         st.write(f'Custo total: R$ {custo_total:.2f}')
