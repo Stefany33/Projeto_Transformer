@@ -100,13 +100,13 @@
 
     Faça o commit das alterações:
 
-        git commit -m "..."
+        'git commit -m ""'
 
     Suba o código para o GitHub:
 
-        git remote set-url origin https://Stefany33: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@github.com/Stefany33/Projeto_Transformer.git
+        'git remote set-url origin'
 
-        git push -u origin master
+        'git push -u origin master'
 
 # Criação do Aplicativo com Streamlit:
 
