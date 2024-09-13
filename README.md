@@ -1,8 +1,14 @@
+# Integrantes do Grupo:
+    -Ana Beatriz Souto Pereira - 802357
+    -Lucas Bianchin P. de Albuquerque - 802805
+    -Nathalia Yuki Enokida - 802230
+    -Stefany Takahashi - 801482
+
 # Documentação para o Código de Plano Amostral
 
     Este projeto implementa uma ferramenta interativa para a análise de risco e custo em um plano amostral. A ferramenta é desenvolvida em Python, utilizando as bibliotecas scipy.stats e streamlit, e permite calcular o risco do fornecedor e do consumidor, além de estimar custos de inspeção e rejeição de lotes com base em parâmetros fornecidos pelo usuário.
 
-    O objetivo é fornecer uma interface amigável para realizar simulações e análises de planos amostrais, facilitando a tomada de decisões na inspeção de qualidade de lotes de produção.
+    O objetivo é fornecer uma interface simples para realizar simulações e análises de planos amostrais, facilitando a tomada de decisões na inspeção de qualidade de lotes de produção.
 
 # Funções:
 
@@ -40,7 +46,7 @@
     
     Custo unitário de inspeção: O custo de inspecionar uma unidade.
     
-    Despesa por lote reprovado: O custo incorrido quando um lote é rejeitado.
+    Despesa por lote reprovado: O custo quando um lote é rejeitado.
     
     Nível de Qualidade Aceitável (NQA): Percentual máximo de defeitos permitidos no lote para ser considerado aceitável.
     
@@ -80,11 +86,11 @@
 
 # Controle de Versão com Git e Upload no GitHub
 
-    Durante o desenvolvimento, foi utilizado o sistema de controle de versão Git para gerenciar as alterações no código. O Git foi utilizado para rastrear as modificações no projeto e fazer o versionamento dos arquivos.
+    Durante o desenvolvimento, foi utilizado o sistema de controle de versão Git para gerenciar as alterações no código. O Git foi utilizado para rastrear as modificações no projeto e fazer a atualização dos arquivos.
 
 # Passos para uso do Git:
 
-    Inicialize o repositório Git no diretório do projeto:
+    Inicie o repositório Git no diretório do projeto:
 
         git init
 
