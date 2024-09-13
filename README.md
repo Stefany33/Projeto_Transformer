@@ -4,7 +4,7 @@
     -Nathalia Yuki Enokida - 802230
     -Stefany Takahashi - 801482
 
-# Documentação para o Código de Plano Amostral
+# Documentação para o Código de Plano Amostral:
 
     Este projeto implementa uma ferramenta interativa para a análise de risco e custo em um plano amostral. A ferramenta é desenvolvida em Python, utilizando as bibliotecas scipy.stats e streamlit, e permite calcular o risco do fornecedor e do consumidor, além de estimar custos de inspeção e rejeição de lotes com base em parâmetros fornecidos pelo usuário.
 

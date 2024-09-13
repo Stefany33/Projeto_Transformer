@@ -56,7 +56,7 @@ def main():
         st.write(f'Custo de despesas: R$ {custo_lotes_rejeitados:.2f}')
         st.write(f'Custo total: R$ {custo_total:.2f}')
         st.write(f'Inspeção Total Média (ITM): {ITM:.2f}')
-        st.write(f'Lote aceito? {"Sim" if lote_aceito else "Não"}')
+        st.write(f'Lote aceito? {"Sim" if lote_aceito else "Não"}') 
 
 if __name__ == "__main__":
     main()
